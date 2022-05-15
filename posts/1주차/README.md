@@ -38,3 +38,24 @@ private fun validate(expression: String?) {
 * https://kotlinlang.org/docs/typecasts.html#is-and-is-operators
 * https://kotlinlang.org/docs/whatsnew13.html#contracts
 * https://www.baeldung.com/kotlin/contracts
+
+
+### 자동차게임 리뷰
+
+#### lazy init
+
+```kotlin
+    val carCount: Int by lazy { askCarCount() }
+    val tryCount: Int by lazy { askTryCount() }
+```
+
+#### List
+
+```kotlin
+    constructor(carCount: Int) : this(List(carCount) { Car() })
+```
+
+* https://github.com/next-step/kotlin-racingcar/pull/522#discussion_r871959524
+* https://github.com/next-step/kotlin-racingcar/pull/522#discussion_r871959812
+* https://github.com/next-step/kotlin-racingcar/pull/522#discussion_r871959564
+* https://github.com/next-step/kotlin-racingcar/pull/522#discussion_r871959655
