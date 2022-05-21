@@ -54,13 +54,13 @@ Maps는 `function` 들이 있지만 결국 PascalCase로 된 파일이였다.
   
 찾아보니 코틀린 표준 라이브러리에서도 **public 함수가 1개만 존재하는 경우**가 몇가지 있었고, **이들은 모두 함수명과 동일하게 CamelCase**를 파일명으로 사용했다.  
 
-**compareTo**
+**compareTo.kt**
 
 ![compareTo](./images/compareTo.png)
 
 ([Github](https://github.com/JetBrains/kotlin/blob/6a670dc5f38fc73eb01d754d8f7c158ae0176ceb/libraries/stdlib/src/kotlin/comparisons/compareTo.kt))  
   
-**removeUnusedImports**
+**removeUnusedImports.kt**
 
 ![removeUnusedImports](./images/removeUnusedImports.png)
 
